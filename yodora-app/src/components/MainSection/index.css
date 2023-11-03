@@ -112,6 +112,10 @@
     .team-members-image{
         display: block;
     }
+
+    .hello{
+        font-size: 10px;
+    }
     .details-container{
         display: flex;
         flex-direction: column;
