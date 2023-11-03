@@ -1,0 +1,113 @@
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    font-family: 'Roboto';
+
+}
+.logo{
+    height: 30px;
+    align-self: center;
+}
+.nav-list-items{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 20px;
+}
+.dot{
+    color: #FFB84C;
+}
+
+.yodora-text{
+    align-self: center;
+}
+.container1{
+    display: flex;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+.list-items{
+    padding: 0 20px;
+    position: relative;
+    font-weight: bold;
+    
+}
+
+.mobile-menu{
+    display: none;
+}
+.desktop-nav-list-items{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile-list{
+    display: none;
+}
+.signin-btn{
+    width: 100px;
+    background-color: #2B2730;
+    color: #ffffff;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+}
+@media screen and (max-width:768px){
+    .mobile-menu{
+        display: block;
+    }
+    .navbar{
+        padding: 0 10px;
+    }
+
+    .nav-list-items{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 90px;
+        right: -300px;
+        width: 300px;
+        height: 100vh;
+        background-color: #ffffff;
+        width: 200px;
+        padding: 0px 0 0 10px;
+        margin-top: 0px;
+        background-color: #2B2730;
+    color: #ffffff;
+    }
+
+    .nav-list-items.active{
+        right: 0px;
+    }
+
+    .desktop-nav-list-items{
+        display: none;
+    }
+    .mobile-list{
+        display: block;
+        padding: 0 20px;
+    position: relative;
+    }
+
+    .list-items{
+        margin-bottom: 25px;
+    }
+
+    .menu-icon{
+        font-size: 25px;
+        cursor: pointer;
+    }
+    
+}

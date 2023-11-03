@@ -1,0 +1,127 @@
+.features-section-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.features-main-container{
+    padding: 50px;
+    background-color: #ffffff;
+}
+.features-setion-heading{
+    color: #2B2730;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.features-section-desc{
+    color: #2B2730;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    text-align: left;
+}
+
+.creator-btn{
+    color: #ffffff;
+    background-color: #2B2730;
+    height: 35px;
+    width: 150px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 17px;
+    border: 0px;
+    margin-top: 10px;
+}
+.grid-heading{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.grid-desc{
+    font-size: 14px;
+}
+
+.cta-container{
+    background-color: #2B2730;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    margin: 30px 0px;
+}
+.cta-heading{
+    color: #ffffff;
+    font-size: 34px;
+}
+.cta-description{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.start-btn{
+    color: #ffffff;
+    background-color: #FFB84C;
+    height: 35px;
+    width: 90px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 0px;
+    margin: 10px;
+}
+.grid-container{
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-grid-container{
+    width: 30%;
+    margin-left: 45px;
+}
+.container3{
+    width: 30%;
+}
+
+
+
+@media screen and (max-width:768px){
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .container3{
+        width: auto;
+    }
+    .features-section-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .sub-grid-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        width: auto;
+        margin-left: 0px;
+        
+    }
+    .cta-heading{
+        font-size: 25px;
+    }
+    .cta-description{
+        font-size: 10px;
+    }
+    .cta-container{
+        padding: 30px;
+    }
+}

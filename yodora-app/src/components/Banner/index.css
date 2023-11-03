@@ -1,0 +1,123 @@
+.banner-container{
+    padding: 20px;
+    font-family: "Roboto";
+}
+
+.banner-section-heading{
+    color: #2B2730;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.ellipse{
+    border: 1px solid #2B2730;
+    width: 162px;
+    height: 162px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ellipse-bg{
+    background-color: #2B2730;
+    width: 132px;
+    height: 132px;
+    top: 10px;
+    left: 10px;
+    padding: 18.75px, 13.25px, 18.75px, 13.75px;
+    border-radius: 122px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-styling{
+    color: #FFB84C;
+}
+
+.calls-count{
+    font-family: "Roboto";
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 1px;
+}
+
+.video-call-text{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+}
+
+.banner-alignment-desktop{
+    height: 258px;
+    top: 183px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    padding: 49px;
+    
+}
+
+.banner-alignment-mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width:768px){
+    .banner-alignment-mobile{
+        display: flex;
+        flex-direction: column;
+    }
+    .calls-count{
+        font-size: 16px;
+    }
+    .video-call-text{
+        font-size: 10px;
+    }
+    .ellipse{
+        width: 112px;
+    height: 112px;
+    border-radius: 59px;
+    }
+    .ellipse-bg{
+        width: 92px;
+    height: 92px;
+    top: 10px;
+    left: 10px;
+    padding: 18.75px, 13.25px, 18.75px, 13.75px;
+    border-radius: 82px;
+    }
+
+    .video-call-container{
+        align-self: flex-end;
+        margin-top: 0px;
+    }
+    .banner-section-heading{
+        margin-bottom: 0px;
+        color: #2B2730;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100vw;
+    }
+    .banner-alignment-desktop{
+        display: none;
+    }
+}

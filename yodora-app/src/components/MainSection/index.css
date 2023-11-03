@@ -1,0 +1,140 @@
+.team-image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.main-section-container{
+    padding: 30px;
+}
+
+.main-section-heading{
+    color: #ffffff;
+    font-size: 42px;
+    margin-top: 25px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.images-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.numerical-content{
+    color: #FFB84C;
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.numrical-fields{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 0px;
+}
+.sub-detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.team-members-image-desktop{
+    width: 90%;
+}
+
+.explore-description{
+    color: #ffffff;
+    font-size: 25px;
+    align-self: center;
+    width: 200px ;
+}
+.explore-container{
+    display: flex;
+}
+.team-members-image{
+    display: none;
+}
+.img-card{
+    margin: 20px;
+    width: 30%;
+}
+.forward-arrow{
+    background-color: #FFB84C;
+    padding: 40px, 0px, 40px, 0px;
+    width: 34px;
+        height: 34px;
+    align-self: center;
+    border-radius: 16px;
+}
+.details-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width:768px){
+    .img-card{
+        margin-top: 20px;
+        width: 90%;
+    }
+    .main-section-heading{
+        width: auto;
+        font-size: 30px;
+    }
+    .team-members-image-desktop{
+        display: none;
+    }
+    .numerical-content{
+        color: #FFB84C;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+    .numrical-fields{
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 0px;
+    }
+    .team-members-image{
+        display: block;
+    }
+    .details-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .explore-description{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        align-self: center;
+        width: auto;
+    }
+    .forward-arrow{
+        background-color: #FFB84C;
+        width: 24px;
+        height: 24px;
+        padding: 20px, 0px, 20px, 0px;
+        border-radius: 100px;
+        align-self: center;
+        margin: 10px;
+    }
+}
