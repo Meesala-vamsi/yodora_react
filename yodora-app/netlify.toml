@@ -1,3 +1,6 @@
+command = "npm run build" # Specify the build command for your React app
+  publish = "build"
+
 [[redirects]]
 from = "/*"
 to="/index.html"
